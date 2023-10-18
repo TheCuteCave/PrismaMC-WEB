@@ -212,7 +212,7 @@ section {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(29, 28, 31, 0.9);
+  background: rgba(0, 0, 0, 0.873);
   transition: 0.3s;
   z-index: 999;
 }
@@ -228,19 +228,19 @@ section {
   position: absolute;
   top: 55px;
   right: 15px;
-  bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  background-color: #00000071;
   overflow-y: auto;
+  border-radius: 30px;
   transition: 0.3s;
 }
 
 .navbar-mobile a,
 .navbar-mobile a:focus {
   padding: 10px 20px;
-  font-size: 15px;
-  color: #36343a;
+  font-size: 24px;
+  color: #ffffff;
 }
 
 .navbar-mobile a:hover,

@@ -8,5 +8,8 @@ function copyToClipboard(element) {
 
 const boton = document.getElementById('button-ip');
 boton.addEventListener('click', function () {
-  alert('¡La ip se copio con exito!');
+  Swal.fire({
+    icon: 'success',
+    title: 'LA IP SE COPIO CON EXITO',
+  })
 });
