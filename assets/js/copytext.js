@@ -10,6 +10,6 @@ const boton = document.getElementById('button-ip');
 boton.addEventListener('click', function () {
   Swal.fire({
     icon: 'success',
-    title: 'LA IP SE COPIO CON EXITO',
+    title: 'LA IP SE COPIO CON ÉXITO ',
   })
 });

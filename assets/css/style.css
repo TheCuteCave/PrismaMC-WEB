@@ -477,6 +477,7 @@ section {
 
 .features .feature-icons .content .icon-box p {
   font-size: 15px;
+
   color: #ffffff;
 }
 
@@ -522,7 +523,7 @@ section {
 
 .services .service-box p {
   color: white;
-  text-align: left;
+  text-align: center;
 }
 
 .services .service-box .read-more {
