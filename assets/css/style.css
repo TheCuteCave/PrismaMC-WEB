@@ -63,7 +63,6 @@ section {
 }
 
 #header .header-container {
-  background-color: rgba(0, 0, 0, 0.634);
   border-radius: 1rem;
   justify-content: center;
 }
@@ -73,33 +72,26 @@ section {
   top: 10px;
 }
 
+
 #header .logo {
-  overflow: hidden;
-  padding: 16px 30px 12px 30px;
-  background-image: linear-gradient(120deg, #89d3fe 0%, #66a6ff 100%);
-  border-radius: 1rem 0 0 1rem;
-}
-
-#header .logo h1 {
-  font-size: 26px;
-  padding: 0;
-  line-height: 1;
-  font-weight: 700;
-  font-family: "Poppins", sans-serif;
-}
-
-#header .logo h1 a,
-#header .logo h1 a:hover {
-  color: #fff;
-  text-decoration: none;
+  line-height: 0;
 }
 
 #header .logo img {
-  padding: 0;
-  margin: 0;
-  max-height: 40px;
+  max-height: 120px;
+  margin-left: 90px;
+  filter: drop-shadow(1px 1px 5px #000000);
+  z-index: 2;
 }
 
+#header .logo span {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #012970;
+  font-family: "Nunito", sans-serif;
+  margin-top: 3px;
+}
 .navbar {
   padding: 0;
 }
@@ -110,10 +102,16 @@ section {
   display: flex;
   list-style: none;
   align-items: center;
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.536) 0%, rgba(0, 0, 0, 0.864) 100%);
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.304);
+  border-radius: 1rem;
+  padding: 4px;
 }
 
 .navbar li {
   position: relative;
+  
 }
 
 .navbar a,
@@ -121,9 +119,10 @@ section {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 0 10px 30px;
+  padding: 10px 10px 10px 30px;
   color: #ffffff;
   transition: 0.3s;
+
   font-size: 13px;
   font-weight: 700;
   text-transform: uppercase;
@@ -170,10 +169,10 @@ section {
 
 .navbar .getstarted,
 .navbar .getstarted:focus {
-  background-image: linear-gradient(120deg, #89d3fe 0%, #66a6ff 100%);
+  background-image: linear-gradient(to top, #9be15d 0%, #00e35b 100%);
   padding: 10px 25px;
   margin-right: 15px;
-  border-radius: 50px;
+  border-radius: 1rem;
   color: #fff;
   transition: 0.4s;
 }
@@ -183,7 +182,6 @@ section {
   color: #fff;
   transform: scale(0.9);
   transition: all ease-in-out 0.4s;
-  background-image: linear-gradient(120deg, #2e698d 0%, #3369b5 100%);
 }
 
 .mobile-nav-toggle {
@@ -265,7 +263,7 @@ section {
   position: relative;
   width: 500px;
   margin-top: 100px;
-  filter: drop-shadow(1px 1px 9px #000000)
+  filter: drop-shadow(1px 1px 9px #000000);
 }
 
 
@@ -369,7 +367,7 @@ section {
 }
 
 .about img {
-  border-radius: 1rem;
+  border-radius: 6px 1rem 1rem 6px;
   filter: drop-shadow(1px 1px 6px #000000)
 }
 
